@@ -1,5 +1,4 @@
 const mongoose = require ('mongoose');
-mongoose.connect ("mongodb+srv://koushikreddys70:koushik1234@database1.ii6lf.mongodb.net/?retryWrites=true&w=majority&appName=Database1")
 const ProductSchema = new mongoose.Schema ({
 
    Name:{ name: String,
@@ -20,6 +19,9 @@ const ProductSchema = new mongoose.Schema ({
         type:String,
         require:true,
     },  
+   
+
+
 
 })
 
